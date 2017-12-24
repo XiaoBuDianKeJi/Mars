@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * Created by zuoqing on 2017/12/24.
+ * Created by zuoqing on 2017/12/24...
  */
 @RestController
 @RequestMapping("index")
