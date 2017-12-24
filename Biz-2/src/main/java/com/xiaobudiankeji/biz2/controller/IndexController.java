@@ -37,4 +37,6 @@ public class IndexController {
         return restTemplate.getForObject(url,Object.class);
 
     }
+
+
 }
