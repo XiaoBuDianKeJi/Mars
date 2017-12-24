@@ -24,12 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="Base" />
         <module name="Biz" />
+        <module name="Biz-2" />
+        <module name="Register" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Base" target="1.5" />
       <module name="Biz" target="1.8" />
+      <module name="Biz-2" target="1.8" />
       <module name="Mars" target="1.8" />
+      <module name="Register" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.xiaobudiankeji.biz;
+package com.xiaobudiankeji.biz2;
 
 
 import org.mybatis.spring.annotation.MapperScan;
@@ -9,9 +9,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 @SpringBootApplication
 @MapperScan(basePackages = {"com.xiaobudiankeji.base.dao"})
-public class BizApplication {
+public class Biz2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BizApplication.class, args);
+		SpringApplication.run(Biz2Application.class, args);
 	}
 }

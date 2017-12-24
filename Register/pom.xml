@@ -10,30 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xiaobudiankeji</groupId>
-    <artifactId>biz</artifactId>
+    <artifactId>register</artifactId>
     <version>1.0.0</version>
-
     <dependencies>
         <dependency>
-            <groupId>com.xiaobudiankeji</groupId>
-            <artifactId>base</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <!--<version>5.7.6</version>-->
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
     </dependencies>
 
