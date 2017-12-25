@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: mars-8764
+  application:
+    name: eureka-rigister-server
+
+eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 6000
