@@ -1,12 +1,8 @@
 package com.xiaobudiankeji.biz2.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
-import javax.annotation.Resource;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,15 +11,6 @@ import java.util.Map;
  */
 @Service
 public class RestTemplateServiceImp extends BaseService implements RestTemplateService {
-    @Resource
-    protected RestTemplate restTemplate;
-
-    @Bean
-    @LoadBalanced
-        //开启负载均衡
-    RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
 
     @Override
     @HystrixCommand(fallbackMethod = "getBizSerivceDataErrorBack")
