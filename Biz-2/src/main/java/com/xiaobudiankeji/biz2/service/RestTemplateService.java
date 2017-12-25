@@ -1,4 +1,4 @@
-package com.xiaobudiankeji.biz2;
+package com.xiaobudiankeji.biz2.service;
 
 /**
  * Created by gaomin on 2017/12/24.

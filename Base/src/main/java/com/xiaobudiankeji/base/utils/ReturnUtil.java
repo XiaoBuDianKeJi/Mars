@@ -1,4 +1,4 @@
-package com.xiaobudiankeji.base;
+package com.xiaobudiankeji.base.utils;
 
 /**
  * Created by zuoqing on 2017/12/24.

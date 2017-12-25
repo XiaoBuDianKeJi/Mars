@@ -1,8 +1,9 @@
+com/xiaobudiankeji/base/utils/RedisStaticUtil.class
+com/xiaobudiankeji/base/utils/ReturnUtil.class
 com/xiaobudiankeji/base/entity/MenuExample$GeneratedCriteria.class
 com/xiaobudiankeji/base/entity/MenuExample.class
 com/xiaobudiankeji/base/entity/Menu.class
 com/xiaobudiankeji/base/entity/MenuExample$Criterion.class
 com/xiaobudiankeji/base/entity/User.class
 com/xiaobudiankeji/base/dao/MenuMapper.class
-com/xiaobudiankeji/base/ReturnUtil.class
 com/xiaobudiankeji/base/entity/MenuExample$Criteria.class

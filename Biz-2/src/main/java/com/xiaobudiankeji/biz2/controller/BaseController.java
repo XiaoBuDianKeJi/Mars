@@ -1,8 +1,8 @@
 package com.xiaobudiankeji.biz2.controller;
 
-import com.xiaobudiankeji.biz2.RestTemplateService;
+import com.xiaobudiankeji.biz2.service.RedisTestService;
+import com.xiaobudiankeji.biz2.service.RestTemplateService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by gaomin on 2017/12/24.
@@ -11,4 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class BaseController {
     @Autowired
     protected RestTemplateService restTemplateService;
+    @Autowired
+    protected RedisTestService redisTestService;
 }

@@ -6,6 +6,7 @@ import java.io.Serializable;
  * Created by zuoqing on 2017/12/24.
  */
 public class User implements Serializable{
+    private static final long serialVersionUId = 1L;
 
     private int id;
 
