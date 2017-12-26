@@ -23,7 +23,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                //为当前包路径
+                //为接口包路径
                 .apis(RequestHandlerSelectors.basePackage("com.xiaobudiankeji.biz2.controller"))
                 .paths(PathSelectors.any())
                 .build();
@@ -38,7 +38,7 @@ public class Swagger2 {
                 //版本号
                 .version("1.0")
                 //描述
-                .description("跑圈模块接口文档")
+                .description("Sports服务模块接口文档")
                 .build();
     }
 }
