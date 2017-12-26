@@ -1,7 +1,5 @@
 package com.xiaobudiankeji.biz2.controller;
 
-import com.xiaobudiankeji.biz2.config.HelloSender;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "rabbit")
 public class RabbitTest {
-    @Autowired
-    private HelloSender helloSender;
-
-    @RequestMapping("/test")
-    public String test() {
-        helloSender.send();
-        return "发送成功";
-    }
+//    @Autowired
+//    private HelloSender helloSender;
+//
+//    @RequestMapping("/test")
+//    public String test() {
+//        helloSender.send();
+//        return "发送成功";
+//    }
 }
