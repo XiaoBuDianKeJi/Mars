@@ -24,8 +24,8 @@ public class IndexController {
 
     @RequestMapping("findUserMenuList")
     public Object findUserMenuList(){
-
-        return userService.findUserMenuList("李文涛");
+        //查询所有状态为0 的数据
+        return userService.findUserMenuList();
     }
 
 }

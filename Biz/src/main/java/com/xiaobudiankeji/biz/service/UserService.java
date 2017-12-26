@@ -9,5 +9,5 @@ import java.util.List;
  */
 public interface UserService {
 
-    List<Menu> findUserMenuList(String name);
+    List<Menu> findUserMenuList();
 }

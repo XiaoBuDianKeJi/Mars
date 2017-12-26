@@ -19,7 +19,7 @@ public class UserServiceImpl extends BaseService implements UserService {
     private MenuMapper menuDao;
 
     @Override
-    public List<Menu> findUserMenuList(String name) {
+    public List<Menu> findUserMenuList() {
 
         MenuExample menuExample = new MenuExample();
         MenuExample.Criteria menuExampleCriteria = menuExample.createCriteria();
