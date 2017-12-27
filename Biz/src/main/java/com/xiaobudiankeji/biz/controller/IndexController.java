@@ -29,15 +29,14 @@ public class IndexController {
 
     @RequestMapping("findUserMenuList")
     public Object findUserMenuList(){
-
         return userService.findUserMenuList("李文涛");
     }
 
     /**
      *
      * 集成分页插件
-     * @param page
-     * @param pageSize
+     * @param page 当前页面
+     * @param pageSize 每页的数量
      * @return
      */
     @RequestMapping("findUserMenuPageList")

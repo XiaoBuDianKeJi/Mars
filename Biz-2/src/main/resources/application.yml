@@ -6,10 +6,10 @@ eureka:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: http://127.0.0.1:8763/eureka/,http://127.0.0.1:8764/eureka/
+      defaultZone: http://127.0.0.1:8763/eureka/,http://127.0.0.1:8764/eureka/    # 服务注册中心地址
 #101.132.38.94
 server:
   port: 8766
 spring:
   application:
-    name: service-biz2
+    name: service-biz2    # 服务名称

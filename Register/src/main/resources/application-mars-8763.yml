@@ -1,11 +1,11 @@
 server:
-  port: 8763
+  port: 8763   # 服务端口
 
 eureka:
   instance:
-    hostname: 127.0.0.1
+    hostname: 127.0.0.1   # 设置主机名
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:8764/eureka/
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: false   # 是否向 Eureka 注册服务。该应用为服务注册中心，不需要自注册，设置为 false
+    fetch-registry: false  # 是否检索服务。该应用为服务注册中心，职责为注册和发现服务，无需检索服务，设置为 false

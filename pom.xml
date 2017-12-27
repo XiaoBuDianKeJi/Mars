@@ -15,6 +15,7 @@
         <module>Biz-2</module>
     </modules>
 
+    <!-- Spring Boot 启动父依赖 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

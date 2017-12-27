@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-@EnableEurekaClient
+@EnableEurekaClient    // Eureka Client 标识
 @SpringBootApplication
 @MapperScan(basePackages = {"com.xiaobudiankeji.base.dao"})
 public class Biz2Application {
