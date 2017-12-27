@@ -16,12 +16,6 @@ public class BaseService {
 
     protected static String SERVICE_BIZ = "http://service-biz";
 
-    @Bean
-    @LoadBalanced
-        //开启负载均衡
-    RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
 
 
 }
