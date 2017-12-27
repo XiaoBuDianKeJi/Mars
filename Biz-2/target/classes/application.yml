@@ -9,7 +9,7 @@ eureka:
       defaultZone: http://127.0.0.1:8763/eureka/,http://127.0.0.1:8764/eureka/
 #101.132.38.94
 server:
-  port: 8766
+  port: 8767
 spring:
   application:
     name: service-biz2
