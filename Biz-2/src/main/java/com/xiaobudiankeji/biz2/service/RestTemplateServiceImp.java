@@ -17,7 +17,7 @@ public class RestTemplateServiceImp extends BaseService implements RestTemplateS
     public Object getBizSerivceData() {
         String url = SERVICE_BIZ+"/index/findUserMenuList";
         Map<String,Object> uriVariables = new HashMap<>();
-        return restTemplate.getForObject(url,Object.class);
+        return restTemplate.getForObject(url,Object.class,uriVariables);
     }
 
     /**
@@ -28,7 +28,7 @@ public class RestTemplateServiceImp extends BaseService implements RestTemplateS
      */
     public Object getBizSerivceDataErrorBack(){
         //可以重新请求继续降级 ....
-        return null;
+        return "error+1";
     }
 
 

@@ -13,6 +13,7 @@ import java.util.List;
 @Service
 public class RedisTestServiceImp extends BaseService implements RedisTestService{
 
+
     @Override
     public Object getDataByMysql() {
         MenuExample menuExample = new MenuExample();
